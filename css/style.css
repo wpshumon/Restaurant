@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,400;1,500&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+body{
+    background-color: #1d1d23;
+}
+.menu{
+    width: 100%;
+    /* background-image: url(../img/header-img.jpg); */
+    height: 100vh;
+}
+.wrapper{
+    width: 100%;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.logo{
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+}
+.nav-menu-left li{
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    transition: .4s ease;
+}
+.nav-menu-left li:hover{
+    color: #e9a438;
+}
+.nav-menu-left li a{
+    margin-right: 10px;
+ 
+}
+.nav-menu-right li{
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    transition: .4s ease;
+}
+.nav-menu-right li:hover{
+    color: #e9a438;
+}
+.nav-menu-right li a{
+    margin-right: 10px;
+}
+.header{
+    width: 100%;
+    display: flex;
+}
+.header-img{
+    margin-top: 30px;
+    width: 50%;
+}
+.header-img img{
+    height: 370px;
+}
+.header-content{
+    margin-top: 30px;
+    width: 50%;
+}
+.header-content h1{
+    font-weight: bold;
+    color: #e9a438;
+    font-size: 40px;
+}
+.header-content h2{
+    font-weight: bold;
+    padding-top: 5px;
+    color: #e9a438;
+    font-size: 40px;
+}
+.header-content p{
+    padding: 20px 0;
+    font-size: 25px;
+    line-height: 25px;
+    color: #fff;
+}
+.praimary-btn{
+    display: inline-block;
+    margin-top: 10px;
+    color: #29292d;
+    background-color:#e58f00;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+/* about section start */
+.about{
+    padding: 50px 0;
+}
+.about-section{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.about-img{
+    width: 50%;
+}
+.about-img img{
+    cursor: pointer;
+    width: 100%;
+}
+.about-content{
+    padding-left: 60px;
+    width: 50%;
+}
+.about-content h1{
+    color: #fff;
+    font-size: 36px;
+}
+.about-content p{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 22px;
+}
+/* about section end */
+/* gallary section start */
+.gallary{
+    padding: 50px 0;
+}
+.gallary-title{
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+}
+.d-flex-block{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+
+}
+.col-6-block{
+    display: flex;
+    width: 33.33%;
+    padding-left: 15px;
+    padding-right: 15px;      
+}
+
+.card img{
+   padding-top: 30px;
+  
+}
+/* gallary section end */
+/* food section start */
+.food{
+    position: relative;
+}
+.food-content{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border: 8px solid #e58f00;
+    top: 35%;
+    transform: translatex(100%);
+} 
+.food-content h1{
+    padding-top: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+}
+.food-content p{
+    padding-top: 50px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+/* food section end */
+/* Menu section start */
+.menu-title{
+    padding: 40px 0;
+    color: #fff;
+    text-align: center;
+}
+.col-3-block{
+    display: flex;
+    width: 33.33%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.card h1{
+    font-size: 22px;
+    color: #e58f00;
+    padding: 10px 0;
+}
+.card p{
+    color: #fff;
+}
+.card h2{
+    color: #e58f00;
+    padding-top: 10px;
+    font-size: 20px;
+}
+/* Menu section end */
+/* Enjoy section start */
+.enjoy{
+    /* padding: 10px 0; */
+    background-color:#e58f00;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.enjoy img{
+    /* width: 50%; */
+    padding-right: 100px;
+}
+.enjoy-content h1{
+    padding-right: 100px;
+    font-size: 36px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.enjoy-content p{
+    padding-right: 100px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 30px;
+}
+/* Enjoy section end */
+/* footer section start */
+.footer-logo{
+    padding: 40px 0;
+     text-align: center;
+}
+.footer-menu{
+    display: flex;
+    justify-content: center;
+}
+.footer-menu ul{
+    display: flex;
+}
+.footer-menu ul li{
+    margin-right: 40px;
+}
+.footer-menu ul li a{
+    font-size: 18px;
+    color: #fff;
+}
+.icon-menu{
+    display: flex;
+    justify-content: center;
+}
+.icon-menu li{
+    padding-top: 30px;
+    padding-bottom: 70px;
+    margin-right: 30px;
+}
+.icon-menu li a i{
+    font-size: 40px;
+    color: #fff;
+}
+/* footer section end */
